@@ -6,11 +6,11 @@ env:
 
 jobs:
   build:
+    runs-on: self-hosted
     strategy:
       matrix:
         OMR_TARGET: [rpi4]
         OMR_KERNEL: [6.6]
-    runs-on: ubuntu-latest
     continue-on-error: true
 
     steps:
