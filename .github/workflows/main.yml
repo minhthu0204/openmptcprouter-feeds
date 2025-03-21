@@ -13,6 +13,7 @@ jobs:
         OMR_KERNEL: [6.6]
     continue-on-error: true
 
+
     steps:
     - name: Branch name
       id: branch_name
